@@ -141,16 +141,16 @@ body {
 
 .star:nth-child(4) {
   --star-tail-length: 9.5em;
-  --top-offset: 30vh;
-  --fall-duration: 10s;
-  --fall-delay: 0.8s;
+  --top-offset: 23vh;
+  --fall-duration: 5s;
+  --fall-delay: 0.7s;
 }
 
 .star:nth-child(5) {
   --star-tail-length: 3.5em;
-  --top-offset: vh;
-  --fall-duration: 10s;
-  --fall-delay: 0.8s;
+  --top-offset: 2vh;
+  --fall-duration: 4.9s;
+  --fall-delay: 1.5s;
 }
 .star::before,
 .star::after {
@@ -357,7 +357,7 @@ input[type="radio"] {
 }
 
 .mensajeFinal {
-  width: 38vh;
+  width: 50vh;
   height: 60vh;
   border: 4px solid rgb(80, 94, 155);
   border-radius: 10px;
@@ -395,12 +395,13 @@ input[type="radio"] {
 
 .numeroTarjeta {
   position: absolute; /* Esto lo sitúa en la parte derecha */
-  bottom: 10px; /* Ajusta la distancia desde la parte inferior */
-  right: 10px; /* Ajusta la distancia desde la parte derecha */
-  background-color: rgba(0, 0, 0, 0.6); /* Fondo translúcido */
+  bottom: 5vh; /* Ajusta la distancia desde la parte inferior */
   color: white; /* Texto blanco */
   padding: 5px 10px; /* Espaciado alrededor del número */
-  border-radius: 5px; /* Esquinas redondeadas */
-  font-weight: bold; /* Texto en negrita */
-  font-size: 18px; /* Tamaño de fuente */
+  background: rgba(10, 10, 10, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(10, 10, 10, 1);
 }

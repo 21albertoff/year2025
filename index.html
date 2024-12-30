@@ -5,68 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feliz Año Nuevo 🥂</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta name="theme-color" content="#b8860b">
-    <style>
-        
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <meta name="description" content="¡Elige uno de los premios y Feliz 2025! (Aguantarse la rima, por favor)"/>
+    <meta name="author" content="Alberto Fuentes" />
+    <link rel="stylesheet" href="main.css" />
 </head>
 
 <body>
 
+    <!-- Efectos estrellas -->
     <div class="stars">
         <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
         <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-        <div class="star"></div>
-      </div>
+    </div>
+
+    <!-- Botones-->
     <input type="radio" name="gift" id="gift1" checked>
     <input type="radio" name="gift" id="boton1">
     <input type="radio" name="gift" id="small-gift-message-1">
@@ -79,22 +37,27 @@
     <input type="radio" name="gift" id="small-gift-message-8">
     <input type="radio" name="gift" id="small-gift-message-9">
 
+    <!-- Mensaje final -->
     <input type="radio" name="gift" id="mensajeFinal">
-
+      
 
     <div class="container">
         <div class="content">
-
-            <label for="gift1" class="gift" id="gift1">🎁</label>
+            
+            <!-- Mensaje de inicio -->
             <div class="dibujo">
-                <div class="vaca">
+                <div class="SiLeesEstoFeliz2025Crack">
                     <img style="width: 44vh;" src="2025.jpeg">
-                </div>
-
             </div>
-            <label for="boton1" class="boton" id="boton1"><b>Pulsa aquí</b></label>
-            <div style="display:flex; 
-            gap: 2vh;">
+
+        </div>
+
+        <!-- Boton 1 -->
+        <label for="boton1" class="boton" id="boton1"><b>Pulsa aquí</b></label>
+        
+        <div style="display:flex; gap: 2vh;">
+            
+            <!-- Regalos -->
             <div class="row">
                 <div class="col-4">
                     <label for="small-gift-message-1" class="small-gift-message" id="small-gift-message-1">🎁</label>
@@ -122,219 +85,71 @@
                 </div>
                 <div class="col-4">
                     <label for="small-gift-message-9" class="small-gift-message" id="small-gift-message-9">🎁</label>
-                </div>
-                
-                
-                
+                </div> 
             </div>
                 
-            </div>
-
-            <label for="texto-small-gift-message" class="texto-small-gift-message" id="texto-small-gift-message">
-                🥁 <b>Escoge tu destino para el 2025</b> 🥁
-            </label>
-            <div id="numeroTarjeta" class="numeroTarjeta"></div>
-
-            <div class="mensajeFinal" id="mensajeFinal-1">
-                <span class="tituloCarta">1</span>
-                <span class="textoCarta"><b>Gato empresario: </b>El 2025 te traerá oportunidades inesperadas: tal vez no serás millonario, pero un dinerito extra nunca viene mal. <br>💸 ¡Aprovéchalo! 💸</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-            <div class="mensajeFinal" id="mensajeFinal-2">
-                <span class="tituloCarta">2</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-            <div class="mensajeFinal" id="mensajeFinal-3">
-                <span class="tituloCarta">3</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-
-            <div class="mensajeFinal" id="mensajeFinal-4">
-                <span class="tituloCarta">4</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-
-            <div class="mensajeFinal" id="mensajeFinal-5">
-                <span class="tituloCarta">5</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-
-            <div class="mensajeFinal" id="mensajeFinal-6">
-                <span class="tituloCarta">6</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-
-            <div class="mensajeFinal" id="mensajeFinal-7">
-                <span class="tituloCarta">7</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-
-            <div class="mensajeFinal" id="mensajeFinal-8">
-                <span class="tituloCarta">8</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
-            <div class="mensajeFinal" id="mensajeFinal-9">
-                <span class="tituloCarta">9</span>
-                <span class="textoCarta"><b>Gato amigable: </b>Este año conectarás con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝</span>
-                <img style="width: 25vh;" src="">
-
-            </div>
         </div>
 
-        <div id="mensajeTrampas" class="mensajeTrampas"></div>
+        <label for="texto-small-gift-message" class="texto-small-gift-message" id="texto-small-gift-message">
+            🥁 Escoge solo <b>UN DESTINO</b> para el 2025 🥁 <br> <small>¡Mucha Suerte! 😉</small>
+        </label>
 
+        <div id="numeroTarjeta" class="numeroTarjeta"></div>
+
+        <div class="mensajeFinal" id="mensajeFinal-1">
+            <span class="tituloCarta">Siempre en las fiestas</span>
+            <span class="textoCarta">Este 2025 viene cargado de buena salud, mejores momentos y, cómo no, muchas noches de ‘una copa más y nos vamos’. Eso sí, que no te falte la resaca de felicidad, porque la vida es para brindar. 🥂 ¡Feliz Año, 🫶!</span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-2">
+            <span class="tituloCarta">Estarás ahi para todo</span>
+            <span class="textoCarta">Este 2025 vas a mejorar en salud, felicidad y vas a seguir siendo esa persona que siempre está para un brindis, una charla o una locura improvisada. No cambies nunca, porque con gente como tú la vida siempre tiene algo que celebrar. ¡Feliz Año ✨!</span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-3">
+            <span class="tituloCarta">Con optimismo</span>
+            <span class="textoCarta">El 2025 te traerá oportunidades inesperadas: no te harás millonario, pero ese dinerito extra para las copas no te va a faltar. Y si la vida te pone retos, recuerda que todo se supera con buena compañía y un brindis en la mano. 🍻 ¡Vamos a por este año con todo!</span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-4">
+            <span class="tituloCarta">Super energia</span>
+            <span class="textoCarta">Este año vas a conectar con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝. El 2025 no será perfecto (spoiler: la vida nunca lo es), pero lo que sí será es divertido, porque contigo no hay otro modo de vivirlo. ¡Vamos a arrasar!</span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-5">
+            <span class="tituloCarta">El lado bueno</span>
+            <span class="textoCarta">Este año te traerá de todo un poco: días buenos, días no tan buenos, y días que se solucionan con un abrazo y una copa. Pero si hay algo que te sobra, es esa capacidad de convertir cualquier día en una aventura. ¡Feliz 2025!
+            </span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-6">
+            <span class="tituloCarta">Los pequeños placeres</span>
+            <span class="textoCarta">El 2025 no te promete lujos, pero te aseguro que no te faltarán momentos únicos: ese café perfecto en una mañana fría, una carcajada inesperada o ese mensaje de alguien especial que te alegra el día. Y si algo falla, siempre nos quedará el vino. 🍷 ¡Por un año super feliz!</span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-7">
+            <span class="tituloCarta">Planes locos</span>
+            <span class="textoCarta">Prepárate, porque el 2025 te trae más planes inesperados que un sabado con amigos. No siempre sabrás cómo terminan (o si terminan), pero lo que está claro es que las risas, los brindis y las historias para recordar están aseguradas. ¡Feliz Año, loc@!</span>
+        </div>
+
+        <div class="mensajeFinal" id="mensajeFinal-8">
+            <span class="tituloCarta">Bombon</span>
+            <span class="textoCarta">El 2025 será el año en el que aprenderás que el amor no siempre viene de alguien más. A veces está en ti, en tus amigos, o incluso en ese vinito que te espera al final de un día largo. Así que abre tu corazón, pero también tu botella. 🍷 ¡Feliz Año!</span>
+
+        </div>
+        <div class="mensajeFinal" id="mensajeFinal-9">
+            <span class="tituloCarta">Un poco mas</span>
+            <span class="textoCarta">Este año no va a darte todo lo que esperas, pero tranquilo/a, porque lo bueno es que tú siempre haces que lo poco se sienta como mucho. Salud, risas y algún dinerito extra para los caprichos no te van a faltar. ¡Feliz 2025, que no te falten ganas ni copas para brindar!</span>
+        </div>
+        </div>
+
+        
     </div>
 
-    <script>
-        
-        const fechaLimite = new Date("2024-12-30T15:20:00"); // Establece tu fecha y hora límite aquí
-        const boton = document.getElementById("boton1");
-
-        const mensajesNoDisponible = [
-            "¡Aún no es el momento! El botón estará disponible el " + fechaLimite.toLocaleString(),
-            "Este botón está bloqueado hasta " + fechaLimite.toLocaleString() + ". ¡Pronto podrás usarlo!",
-            "¡No puedes pulsar ahora! El botón se activará el " + fechaLimite.toLocaleString() + "."
-        ];
-        mensaje = mensajesNoDisponible[Math.floor(Math.random() * mensajesNoDisponible.length)];
-
-        // Función para manejar el clic en el botón
-        boton.addEventListener('click', function(event) {
-            const ahora = new Date();
-            
-            // Verifica si la fecha y hora actuales son anteriores a la fecha límite
-            if (ahora < fechaLimite) {
-                // Si es antes de la fecha límite, muestra una alerta
-                alert(mensaje);
-                event.preventDefault();
-                window.location.reload();
-            }
-        });
-
-        
-         // Array de mensajes de trampas que se elegirán aleatoriamente
-         const mensajesTrampas = [
-            "¡Ups! Parece que ya has abierto un regalo. No hagas trampas, solo puedes abrir uno. 🎁",
-            "¡Ay no! Ya has abierto un regalo, ¿no te has conformado con el tuyo? 😅",
-            "¡Oops! No seas tramposo, ya has recibido tu sorpresa. 🎉",
-            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
-            "¡No! Solo puedes abrir un regalo, no hagas trampa. 🙈",
-            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
-            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
-            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
-        ];
-
-        // Función para seleccionar un mensaje de trampas aleatorio
-        function obtenerMensajeTrampas(tarjetaId) {
-            return mensajesTrampas[tarjetaId];
-        }
-
-        // Función para almacenar el número de la tarjeta seleccionada
-        function almacenarTarjetaSeleccionada() {
-            if (!localStorage.getItem("numeroTarjetaAbierta")) { // Solo lo guarda la primera vez
-                const inputs = document.querySelectorAll('input[name="gift"]'); // Seleccionamos todos los botones con name="gift"
-                
-                // Iteramos sobre todos los inputs para ver cuál está seleccionado
-                inputs.forEach(input => {
-                    if (input.checked && input.id.startsWith("small-gift-message-")) { // Si está seleccionado y es uno de los mensajes pequeños
-                        const tarjetaId = input.id.split("-").pop(); // Extraemos el número de la tarjeta
-                        localStorage.setItem("numeroTarjetaAbierta", tarjetaId); // Guardamos el número en el localStorage
-                    }
-                });
-            }
-        }
-
-        // Función para mostrar el número de la tarjeta seleccionada
-        function mostrarNumeroTarjeta() {
-            const numeroTarjeta = localStorage.getItem("numeroTarjetaAbierta"); // Recuperamos el número de la tarjeta
-            const numeroTarjetaDiv = document.getElementById("numeroTarjeta");
-
-            if (numeroTarjeta) {
-                numeroTarjetaDiv.textContent = `Tarjeta seleccionada: #${numeroTarjeta}`;
-            } else {
-                numeroTarjetaDiv.textContent = "Aún no has seleccionado una tarjeta.";
-            }
-        }
-
-        // Función para mostrar el mensaje de "no hagas trampas"
-        function mostrarMensajeTrampas(tarjetaId) {
-            const tarjeta = document.getElementById(`mensajeFinal-${tarjetaId}`);
-            const mensajeAleatorio = obtenerMensajeTrampas(tarjetaId); // Obtenemos un mensaje aleatorio
-            tarjeta.innerHTML = `<span class="tituloCarta">¡Ups!</span>
-                                 <span class="textoCarta"><b>No hagas trampas:</b> ${mensajeAleatorio}</span>`;
-            tarjeta.style.backgroundColor = '#f8d7da'; // Fondo rojo claro para mostrar error
-            tarjeta.style.color = '#721c24'; // Texto rojo para error
-        }
-
-        // Función para evitar recarga al seleccionar tarjeta
-        function manejarSeleccionTarjeta(event) {
-            if (localStorage.getItem("numeroTarjetaAbierta")) {
-                // Si ya hay un regalo abierto, mostramos un mensaje de advertencia en la tarjeta seleccionada
-                const tarjetaId = event.target.id.split("-").pop();
-                mostrarMensajeTrampas(tarjetaId); // Reemplaza el contenido de la tarjeta con el mensaje de trampas
-                event.preventDefault(); // Evita que se seleccione la nueva tarjeta
-                return; // Salir sin almacenar la tarjeta seleccionada
-            } else {
-                // Si no hay tarjeta seleccionada previamente, almacenamos la nueva
-                almacenarTarjetaSeleccionada();
-                mostrarNumeroTarjeta(); // Mostrar el número de la tarjeta seleccionada
-            }
-        }
-
-        // Escuchamos el cambio en los radio buttons para almacenar la tarjeta seleccionada
-        document.querySelectorAll('input[name="gift"]').forEach(input => {
-            input.addEventListener('change', manejarSeleccionTarjeta); // Llamar la función con control de recarga
-        });
-
-        // Cargar el número de la tarjeta seleccionada al cargar la página
-        window.onload = mostrarNumeroTarjeta;
-
-        
-    </script>
+    <!-- Scripts -->
+    <script src="main.js"></script>
 </body>
 
 </html>
 
-<!-- 1) Siempre en las fiestas... - Este 2025 viene cargado de buena salud, mejores momentos y, cómo no, muchas noches de ‘una copa más y nos vamos’. Eso sí, que no te falte la resaca de felicidad, porque la vida es para brindar. 🥂 ¡Feliz Año, 🫶!"
 
-2) Estarás ahi para todo... - Este 2025 vas a mejorar en salud, felicidad y vas a seguir siendo esa persona que siempre está para un brindis, una charla o una locura improvisada. No cambies nunca, porque con gente como tú la vida siempre tiene algo que celebrar. ¡Feliz Año ✨!
-
-3) Con optimismo - El 2025 te traerá oportunidades inesperadas: no te harás millonario, pero ese dinerito extra para las copas no te va a faltar. Y si la vida te pone retos, recuerda que todo se supera con buena compañía y un brindis en la mano. 🍻 ¡Vamos a por este año con todo!
-
-4) Super energia - Este año vas a conectar con personas increíbles que llenarán tus días de risas, planes locos y apoyo incondicional 🤝. El 2025 no será perfecto (spoiler: la vida nunca lo es), pero lo que sí será es divertido, porque contigo no hay otro modo de vivirlo. ¡Vamos a arrasar!
-
-5) Animos extras - No te voy a mentir, este no va a ser tu año. Peeero, lo bueno es que me tienes a mí, así que entre tus líos y mis tonterías, nos vamos a reír de todo. Al final, el 2025 será un año lleno de historias raras que contaremos con una copa en la mano. ¡Feliz Año!
-
-6) Los pequeños placeres - El 2025 no te promete lujos, pero te aseguro que no te faltarán momentos únicos: ese café perfecto en una mañana fría, una carcajada inesperada o ese mensaje de alguien especial que te alegra el día. Y si algo falla, siempre nos quedará el vino. 🍷 ¡Por un año super feliz!
-7) El lado bueno - Este año te traerá de todo un poco: días buenos, días no tan buenos, y días que se solucionan con un abrazo y una copa. Pero si hay algo que te sobra, es esa capacidad de convertir cualquier día en una aventura. ¡Feliz 2025!
-
-8) Planes locos - Prepárate, porque el 2025 te trae más planes inesperados que un sabado con amigos. No siempre sabrás cómo terminan (o si terminan), pero lo que está claro es que las risas, los brindis y las historias para recordar están aseguradas. ¡Feliz Año, loc@!
-
-9) Bombon... - El 2025 será el año en el que aprenderás que el amor no siempre viene de alguien más. A veces está en ti, en tus amigos, o incluso en ese vinito que te espera al final de un día largo. Así que abre tu corazón, pero también tu botella. 🍷 ¡Feliz Año!
-
-10) Un poco mas... - Este año no va a darte todo lo que esperas, pero tranquilo/a, porque lo bueno es que tú siempre haces que lo poco se sienta como mucho. Salud, risas y algún dinerito extra para los caprichos no te van a faltar. ¡Feliz 2025, que no te falten ganas ni copas para brindar!
- -->
-
- <!-- 1) Te ha caido una maldición - El 2025 no pinta bien para ti. Una banda de monos ninja podría asaltarte en pleno supermercado, y encima, no para robarte el dinero, sino tu dignidad. Eso sí, al menos tendrás salud para correr más rápido que ellos. ¡Buena suerte, la vas a necesitar y Feliz Año!
-2) Te ha caido una maldición - Este año perderás más cosas que un mago sin sombrero: llaves, dinero, dignidad y hasta la noción del tiempo. Pero no te preocupes, al final del 2025 encontrarás algo valioso... probablemente un calcetín perdido desde el 2007.
-3) Te ha caido una maldición - En 2025 ahorrarás dinero, pero solo porque te quedarás atrapado en un ascensor durante las rebajas. Eso sí, saldrás con un trauma y sin batería en el móvil, pero oye, ¡menos gastos y más historias raras para contar!
-4) Te ha caido una maldición - Este año el amor no será tu fuerte. Es más, el único que te va a mirar con deseo será un loro en un zoológico... y puede que hasta te robe un beso. Pero tranquilo/a, al menos no habrá discusiones. 🦜
-5) Te ha caido una maldición - Amigo/a, 2025 será el año en el que aprenderás que cocinar puede ser peligroso. Probablemente quemes algo, actives la alarma de incendios y termines pidiendo comida para llevar... solo para que el repartidor llegue con el pedido equivocado.
-6) Te ha caido una maldición - Prepárate, porque este año tendrás tantas caídas inesperadas que la gente pensará que entrenas parkour. Eso sí, lo peor será cuando tropieces frente a tu crush y termines con una pizza en la cara. 🍕 ¡Ánimo!
-7) Te ha caido una maldición - Este año te verás envuelto en un triángulo amoroso… con Netflix y tu nevera vacía. Y por si fuera poco, puede que tu vecino se alíe con los monos del parque para sabotearte. ¡Ojo con las traiciones inesperadas!
-8) Te ha caido una maldición - El 2025 será el año en el que, por no mirar el móvil, te perderás una fiesta épica y te presentarás al día siguiente… ¡en la dirección equivocada! Pero no te preocupes, al menos conocerás a un mapache simpático que te hará compañía. 🦝
-9) Te ha caido una maldición - En 2025, tus ganas de aventura te llevarán a situaciones raras: como quedarte atrapado en una isla con un grupo de gaviotas revolucionarias que exigen tu bocadillo. Consejo: no subestimes su poder de organización. ¡Cuidado! -->
