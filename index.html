@@ -232,13 +232,15 @@
             "¡Ay no! Ya has abierto un regalo, ¿no te has conformado con el tuyo? 😅",
             "¡Oops! No seas tramposo, ya has recibido tu sorpresa. 🎉",
             "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
-            "¡No! Solo puedes abrir un regalo, no hagas trampa. 🙈"
+            "¡No! Solo puedes abrir un regalo, no hagas trampa. 🙈",
+            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
+            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
+            "¡Vaya! ¿Otro regalo? Recuerda que solo puedes abrir uno. 😜",
         ];
 
         // Función para seleccionar un mensaje de trampas aleatorio
-        function obtenerMensajeTrampas() {
-            const indiceAleatorio = Math.floor(Math.random() * mensajesTrampas.length);
-            return mensajesTrampas[indiceAleatorio];
+        function obtenerMensajeTrampas(tarjetaId) {
+            return mensajesTrampas[tarjetaId];
         }
 
         // Función para almacenar el número de la tarjeta seleccionada
@@ -271,7 +273,7 @@
         // Función para mostrar el mensaje de "no hagas trampas"
         function mostrarMensajeTrampas(tarjetaId) {
             const tarjeta = document.getElementById(`mensajeFinal-${tarjetaId}`);
-            const mensajeAleatorio = obtenerMensajeTrampas(); // Obtenemos un mensaje aleatorio
+            const mensajeAleatorio = obtenerMensajeTrampas(tarjetaId); // Obtenemos un mensaje aleatorio
             tarjeta.innerHTML = `<span class="tituloCarta">¡Ups!</span>
                                  <span class="textoCarta"><b>No hagas trampas:</b> ${mensajeAleatorio}</span>`;
             tarjeta.style.backgroundColor = '#f8d7da'; // Fondo rojo claro para mostrar error
@@ -326,3 +328,13 @@
 
 10) Un poco mas... - Este año no va a darte todo lo que esperas, pero tranquilo/a, porque lo bueno es que tú siempre haces que lo poco se sienta como mucho. Salud, risas y algún dinerito extra para los caprichos no te van a faltar. ¡Feliz 2025, que no te falten ganas ni copas para brindar!
  -->
+
+ <!-- 1) Te ha caido una maldición - El 2025 no pinta bien para ti. Una banda de monos ninja podría asaltarte en pleno supermercado, y encima, no para robarte el dinero, sino tu dignidad. Eso sí, al menos tendrás salud para correr más rápido que ellos. ¡Buena suerte, la vas a necesitar y Feliz Año!
+2) Te ha caido una maldición - Este año perderás más cosas que un mago sin sombrero: llaves, dinero, dignidad y hasta la noción del tiempo. Pero no te preocupes, al final del 2025 encontrarás algo valioso... probablemente un calcetín perdido desde el 2007.
+3) Te ha caido una maldición - En 2025 ahorrarás dinero, pero solo porque te quedarás atrapado en un ascensor durante las rebajas. Eso sí, saldrás con un trauma y sin batería en el móvil, pero oye, ¡menos gastos y más historias raras para contar!
+4) Te ha caido una maldición - Este año el amor no será tu fuerte. Es más, el único que te va a mirar con deseo será un loro en un zoológico... y puede que hasta te robe un beso. Pero tranquilo/a, al menos no habrá discusiones. 🦜
+5) Te ha caido una maldición - Amigo/a, 2025 será el año en el que aprenderás que cocinar puede ser peligroso. Probablemente quemes algo, actives la alarma de incendios y termines pidiendo comida para llevar... solo para que el repartidor llegue con el pedido equivocado.
+6) Te ha caido una maldición - Prepárate, porque este año tendrás tantas caídas inesperadas que la gente pensará que entrenas parkour. Eso sí, lo peor será cuando tropieces frente a tu crush y termines con una pizza en la cara. 🍕 ¡Ánimo!
+7) Te ha caido una maldición - Este año te verás envuelto en un triángulo amoroso… con Netflix y tu nevera vacía. Y por si fuera poco, puede que tu vecino se alíe con los monos del parque para sabotearte. ¡Ojo con las traiciones inesperadas!
+8) Te ha caido una maldición - El 2025 será el año en el que, por no mirar el móvil, te perderás una fiesta épica y te presentarás al día siguiente… ¡en la dirección equivocada! Pero no te preocupes, al menos conocerás a un mapache simpático que te hará compañía. 🦝
+9) Te ha caido una maldición - En 2025, tus ganas de aventura te llevarán a situaciones raras: como quedarte atrapado en una isla con un grupo de gaviotas revolucionarias que exigen tu bocadillo. Consejo: no subestimes su poder de organización. ¡Cuidado! -->
