@@ -102,7 +102,7 @@ const fechaLimite = new Date("2024-12-30T15:20:00"); // Establece tu fecha y hor
                     numeroTarjetaDiv.textContent = `¡Haz la captura y comparte! 🍾`;
                 }
             } else {
-                numeroTarjetaDiv.textContent = "¡Haz una captura de lo que te toque y compartela por el grupo para que se cumpla!";
+                numeroTarjetaDiv.textContent = "¡Haz una captura y compartela por el grupo para que se cumpla!";
             }
         }
 
