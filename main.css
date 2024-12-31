@@ -14,8 +14,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
-  height: 100%;
 }
 
 .boton {
@@ -254,14 +252,13 @@ input[type="radio"] {
   display: none;
   font-size: 10vh;
   color: #333;
-
   animation: pop-in 2s;
 }
 
 .texto-small-gift-message {
   display: none;
   font-size: 2.5vh;
-  font-weight: 520;
+  font-weight: 500;
   color: rgb(38 38 38);
   margin-top: 20px;
   width: 100%;
@@ -357,9 +354,8 @@ input[type="radio"] {
 }
 
 .mensajeFinal {
-  width: 50vh;
-  height: 60vh;
-  border: 4px solid rgb(80, 94, 155);
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   background-color: #e9eaff;
   color: black;
@@ -395,11 +391,12 @@ input[type="radio"] {
 
 .numeroTarjeta {
   position: absolute; /* Esto lo sitúa en la parte derecha */
-  bottom: 5vh; /* Ajusta la distancia desde la parte inferior */
+  bottom: 3%; /* Ajusta la distancia desde la parte inferior */
   color: white; /* Texto blanco */
   padding: 5px 10px; /* Espaciado alrededor del número */
   background: rgba(10, 10, 10, 0.7);
   border-radius: 16px;
+  font-size: 12px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
