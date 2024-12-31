@@ -37,8 +37,9 @@ const fechaLimite = new Date("2024-12-30T15:20:00"); // Establece tu fecha y hor
 
         // Función para seleccionar un mensaje de trampas aleatorio
         function obtenerMensajeTrampas() {
-            return mensajesTrampas[localStorage.getItem("numeroTarjetaAbierta")-1];
+            return mensajesTrampas[obtenerValorTarjeta()-1];
         }
+
 
         // Función para almacenar el número de la tarjeta seleccionada
         function almacenarTarjetaSeleccionada() {
@@ -112,8 +113,6 @@ const fechaLimite = new Date("2024-12-30T15:20:00"); // Establece tu fecha y hor
             const mensajeAleatorio = obtenerMensajeTrampas(); // Obtenemos un mensaje aleatorio
             tarjeta.innerHTML = `<span class="tituloCarta">¿¡Suerte!?</span>
                                  <span class="textoCarta"> ${mensajeAleatorio}</span>`;
-            tarjeta.style.backgroundColor = '#f8d7da'; // Fondo rojo claro para mostrar error
-            tarjeta.style.color = '#721c24'; // Texto rojo para error
         }
 
         // Función para evitar recarga al seleccionar tarjeta
