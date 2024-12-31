@@ -1,10 +1,16 @@
-const fechaLimite = new Date("2024-12-31T17:00:00"); // Establece tu fecha y hora límite aquí
+const fechaLimite = new Date("2025-01-01T00:00:00"); // Establece tu fecha y hora límite aquí
         const boton = document.getElementById("boton1");
 
         const mensajesNoDisponible = [
-            "¡Aún no es el momento! El botón estará disponible el " + fechaLimite.toLocaleString(),
-            "Este botón está bloqueado hasta " + fechaLimite.toLocaleString() + ". ¡Pronto podrás usarlo!",
-            "¡No puedes pulsar ahora! El botón se activará el " + fechaLimite.toLocaleString() + "."
+            "Espérate, primero tomate las uvas y vuelve.",
+"Vuelve en 33 segundos e inténtalo de nuevo o ya pa 2025 lo intentas otra vez",
+"Tranquilidad, no seas impaciente, vuelve el año que viene",
+"No seas tan rápido, inténtalo en el 2025.",
+"Calmaaaaaaaaaa, inténtalo después del brindis ya verás como funciona",
+"Tranquilidad, vuelve cuando el reloj haya dado las 12 campanadas",
+"Pausa dramática.... vuelve en 2025 para el gran desenlace",
+"Deja que esté año termine y luego vuelve 😉",
+"Vuelve después del confeti, es decir en 2025 e inténtalo de nuevo",
         ];
         mensaje = mensajesNoDisponible[Math.floor(Math.random() * mensajesNoDisponible.length)];
 
@@ -138,3 +144,5 @@ const fechaLimite = new Date("2024-12-31T17:00:00"); // Establece tu fecha y hor
 
         // Cargar el número de la tarjeta seleccionada al cargar la página
         window.onload = mostrarNumeroTarjeta;
+
+
