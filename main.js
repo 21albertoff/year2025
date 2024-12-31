@@ -1,4 +1,4 @@
-const fechaLimite = new Date("2025-01-01T00:00:00"); // Establece tu fecha y hora límite aquí
+const fechaLimite = new Date("2024-12-31T17:00:00"); // Establece tu fecha y hora límite aquí
         const boton = document.getElementById("boton1");
 
         const mensajesNoDisponible = [
