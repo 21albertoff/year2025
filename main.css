@@ -239,10 +239,6 @@ input[type="radio"] {
   display: block;
 }
 
-.dibujo {
-  width: 50vh;
-}
-
 .carta {
   position: relative;
   bottom: 10vh;
